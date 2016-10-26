@@ -1,4 +1,4 @@
-.page-header h1{color: #9b0a0a;
+.page-header h1{color: #b2040c;
 				text-align: center;
 				font-family: 'Creepster', cursive;
 				font-size: 60px;
@@ -7,9 +7,13 @@
 body{background-size: cover;
 	background-color: #2d2d2d; }
 
+.container .jumbotron{
+	border-radius: 80px;
+}
 .jumbotron {
 	min-height: 500px;
-	background-color: #8e817f;
+	/*background-color: #8e817f;*/
+	background-image: url("./images/help.jpg");
 
 }
 
@@ -17,16 +21,22 @@ body{background-size: cover;
 	font-family: 'Creepster', cursive;
 	text-align: center;
 	font-size: 30px;
+	color: #e5d7d8;
+
 
 }
 
 .btn-danger {font-family: 'Creepster', cursive;
-	color: black;
+    font-size: 100px;
+	color: white;
+	background-color: #000000;
 		position:relative;
 		left:38%;
     top:50%; 
-   	;
+   	
     border-radius: 50px 90px;
     height:200px;
     width: 200px;
+
 	}
+
