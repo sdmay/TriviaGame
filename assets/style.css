@@ -1,0 +1,25 @@
+.page-header h1{color: #9b0a0a;
+				text-align: center;
+				font-family: 'Creepster', cursive;
+				font-size: 60px;
+				text-shadow: 8px 8px black;
+				}
+body{background-size: cover;
+	background-color: #2d2d2d; }
+
+.jumbotron {
+	min-height: 500px;
+}
+
+.jumbotron p{
+	font-family: 'Creepster', cursive;
+	text-align: center;
+	font-size: 30px;
+}
+
+.btn-danger {font-family: 'Creepster', cursive;
+	color: black;
+		position:relative;
+    top:50%; 
+    left:50%;
+	}
