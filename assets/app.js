@@ -70,16 +70,21 @@ var counter = -1;
 
 var score = 0;
 
+var n = 9;
 
 $("#start").on("click", function start() {
 	$(".score").empty();
 	$(".trivia").empty();
 	$(".answer").empty();
+	score = 0;
+	counter = -1;
 	showQuestion = setInterval(nextQuestion, 3000);
 });
 
 function nextQuestion() {
 	counter++;
+	n--
+	$(".time").html(n)
 	setTimeout(displayQuestion, 1000)
 }
 
@@ -111,4 +116,5 @@ function stopQuestion() {
 	clearInterval(showQuestion);
 	counter = -1;
 	score = 0;
+	n = 9;
 }
